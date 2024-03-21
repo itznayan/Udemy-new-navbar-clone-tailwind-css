@@ -12,6 +12,9 @@
   </head>
   <body>
     <header class="flex items-center shadow-xl border-b-[.1px] border-black">
+      <div class="md:hidden">
+       <a href=""> <span class="material-symbols-outlined px-4 pointer scale-125"> Menu </a></span>
+      </div>
       <img
         src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
         class="size-[91px] mx-5"
@@ -24,7 +27,7 @@
             href="#"
             id="categories-section"
             onclick="menuOpen()"
-            class="group-hover:flex hover:text-[#7e39ac]"
+            class="exsm:max-md:hidden group-hover:flex hover:text-[#7e39ac]"
           >
             Categories</a
           >
@@ -82,7 +85,7 @@
         </div>
       </div>
 
-      <ul class="items-center flex w-full gap-5">
+      <ul class="exsm:max-md:hidden items-center flex w-full gap-5">
         <li class="hover:text-[#9D00EF]">Udemy Business</li>
 
         <li class="hover:text-[#9D00EF]">Teach on Udemy</li>
